@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "ko">
+
+<head>
+    <meta charset ="UTF-8">
+    <title>Sierpinski Carpet</title>
+</head>
+
+<body>
+    <h1>Sierpinski Carpet</h1>
+
+    <canvas id ="gl-canvas" width = "600" height = "600" style="border: 1px solid black;"></canvas>
+
+
+    <div>
+        <label for="divisionSlider">분할 횟수:</label>
+
+        <input
+            id = "divisionSlider"
+            type = "range"
+            min = "0"
+            max ="5"
+            step = "1"
+            value = "2"
+        >
+
+        <span id = "divisionValue">2</span>
+        </div>
+
+        <div>
+            <lable for="colorMenu">색상:</lable>
+
+            <select id = "colorMenu">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+            </select>
+        </div>
+
+        <div>
+            <button id = "resetButton">Reset</button>
+        </div>
+
+        <script src ="squre.js"></script>
+</body>
+</html>
