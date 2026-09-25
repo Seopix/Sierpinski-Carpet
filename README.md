@@ -19,7 +19,7 @@ WebGL을 사용하여 Sierpinski Carpet을 구현한 컴퓨터그래픽스 과�
 ## File Structure
 
 ```text
-.
+Sierpinski Carpet 
 ├── index.html
 ├── main.js
 ├── vertex.glsl
