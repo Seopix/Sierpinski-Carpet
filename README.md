@@ -1,6 +1,6 @@
 # Sierpinski Carpet - WebGL
 
-WebGL을 사용하여 Sierpinski Carpet을 구현한 컴퓨터그래픽스 과제입니다.
+WebGL을 사용하여 Sierpinski Carpet을 구현한 컴퓨터그래픽스 과제
 
 ## Features
 
@@ -14,14 +14,13 @@ WebGL을 사용하여 Sierpinski Carpet을 구현한 컴퓨터그래픽스 과�
 - HTML
 - JavaScript
 - WebGL
-- GLSL
 
 ## File Structure
 
 ```text
 Sierpinski Carpet 
 ├── index.html
-├── main.js
+├── square.js
 ├── vertex.glsl
 └── fragment.glsl
 
